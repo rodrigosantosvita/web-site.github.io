@@ -4,16 +4,76 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>This is my page</title>
+    <title>Rodrigo Ribeiro Resume</title>
+
+    <!-- Google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>This is title</h1>
-    <p>This is paragraph</p>
-    <h2>This is an list</h2>
-    <ul>
-      <li>Element one</li>
-      <li>Element two</li>
-      <li>Element three</li>
-    </ul>
+    <main class="resume-contents">
+      <section class="left-section">
+        <div class="left-section-contents">
+          <div class="profile">
+            <img
+              class="profile-image"
+              src="img/profile-image.jpg"
+              alt="Profile image"
+            />
+            <p class="name">Rodrigo Ribeiro</p>
+            <p class="profession">Educator</p>
+          </div>
+          <div class="contact-info">
+            <p class="left-title">Contact Info</p>
+            <ul>
+              <li><i class="fa fa-phone"></i>+5571 88090133</li>
+              <li><i class="fa fa-envelope"></i>rodrigoribeiro@gmail.com</li>
+              <li><i class="fa fa-globe"></i>rodrigoribeiro.com.br</li>
+              <li><i class="fa fa-github"></i>rodrigoribeiro</li>
+            </ul>
+          </div>
+          <div class="skills">
+            <p class="left-title">Skills</p>
+            <ul>
+              <li><p>Python3</p></li>
+              <li><p>HTML, CSS3 & JavaScript</p></li>
+              <li><p>SQL</p></li>
+              <li><p>HTML5 CSS3</p></li>
+              <li><p>Git & GitHub</p></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="right-section">
+        <div class="right-section-contents">
+          <section class="about gap">
+            <div class="right-title">About me</div>
+            <p class="about-me-contents">
+              Educator, researcher in the area of games and educational
+              technologies..<br />
+              <br />
+              Experienced with cloud providers such as AWS, Google Cloud
+              Platform. <br />
+              Over the past years, my main language is Python acting as a
+              Software Engineer also as an Architect.
+            </p>
+          </section>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
