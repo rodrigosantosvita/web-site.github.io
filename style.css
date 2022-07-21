@@ -41,7 +41,10 @@ body {
 }
 
 .profile .profile-image {
-    width: 100%;
+    width: 50%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
 }
 
 .name {
